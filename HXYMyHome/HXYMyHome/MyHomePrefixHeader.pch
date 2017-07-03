@@ -1,0 +1,28 @@
+//
+//  MyHomePrefixHeader.pch
+//  HXYMyHome
+//
+//  Created by 胡小羊 on 17/3/21.
+//  Copyright © 2017年 HXY. All rights reserved.
+//
+
+#ifndef MyHomePrefixHeader_pch
+#define MyHomePrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import "GlobalTools.h"
+#import "MBProgressHUD.h"
+#import "RootViewController.h"
+#import "UIImageView+WebCache.h"
+#import "HXYWebViewController.h"
+
+#define ScrW [UIScreen mainScreen].bounds.size.width
+#define ScrH [UIScreen mainScreen].bounds.size.height
+
+/** 设置颜色RGB值 */
+#define RGB(a,b,c) [UIColor colorWithRed:(a/255.0) green:(b/255.0) blue:(c/255.0) alpha:1.0]
+#define BGCOLOR [UIColor colorWithRed:1.00f green:1.00f blue:1.00f alpha:1.00f]
+//主色调
+#define MAIN_COLOR [UIColor colorWithRed:0.11f green:0.73f blue:0.84f alpha:1.00f]
+
+#endif /* MyHomePrefixHeader_pch */
