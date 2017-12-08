@@ -60,6 +60,7 @@ static GlobalTools *globalToos;
     [self saveDataToLocalWithKey:USER_PWD andValue:user_Pwd];
     
 }
+
 - (void)setUser_Phone:(NSString *)user_Phone{
     [self saveDataToLocalWithKey:USER_PHONE andValue:user_Phone];
 }
